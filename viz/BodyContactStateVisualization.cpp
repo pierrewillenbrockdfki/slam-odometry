@@ -86,3 +86,7 @@ void BodyContactStateVisualization::setContactChannel(int channel)
     emit propertyChanged("contact_channel");
 }
 
+namespace vizkit3d
+{
+    VizkitQtPluginImpl( BodyContactStateVisualization )
+}

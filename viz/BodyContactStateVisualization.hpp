@@ -42,7 +42,7 @@ namespace vizkit3d
 	int contactChannel;
     };
 
-    VizkitQtPlugin( BodyContactStateVisualization )
+    VizkitQtPluginHeaderDecls( BodyContactStateVisualization )
 
 }
 #endif
