@@ -6,7 +6,7 @@ includedir=${prefix}/include
 Name: @TARGET_NAME@
 Description: Visualization for rock odometry library 
 Version: @PROJECT_VERSION@
-Requires: vizkit, odometry
+Requires: @PKGCONFIG_REQUIRES@ odometry
 Libs: -L${libdir} -l@TARGET_NAME@
 Cflags: -I${includedir}
 
